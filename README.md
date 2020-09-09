@@ -7,4 +7,4 @@ Add filters to giveaway list, allow to hide ended and joined giveaways.
 * Install addon for userscripts: :
     * **Google Chrome** "Tampermonkey" addon: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
     * **Mozilla Firefox** "Greasemonkey" addon: https://addons.mozilla.org/ru/firefox/addon/greasemonkey/
-* Install userscript: 
+* Install userscript: https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js
