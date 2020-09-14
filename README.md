@@ -1,7 +1,7 @@
 # Userscript: Giveaways filter for [GGPlayers.com](https://ggplayers.com/)
 *Userscript for Tampermonkey/Greasemonkey.*
 
-Add filters to giveaway list, allow to hide ended, ongoing and joined giveaways.
+Add filters to giveaways list, allow to hide ended, ongoing and joined giveaways.
 
 ## Installation:
 * Install addon for userscripts: :
