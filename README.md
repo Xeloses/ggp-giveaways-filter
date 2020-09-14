@@ -12,6 +12,7 @@ Add filters to giveaways list, allow to hide ended, ongoing and joined giveaways
 ## Features:
 * Hide joined giveaways.
 * Hide closed (ended and upcoming) giveaways.
-* Display current GGPoints amount (*Tampermonkey only*).
+* Display current GGPoints amount
+    * *Tampermonkey only*.
 
 ![Preview](https://raw.github.com/Xeloses/ggp-giveaways-filter/master/preview.jpg) 
