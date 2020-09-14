@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GGPlayers: Giveaway list filter
-// @description  Add filters to giveaway list, allow to hide ended and joined giveaways.
+// @description  Add filters to giveaways list, allow to hide ended, ongoing and joined giveaways.
 // @author       Xeloses
 // @version      1.0.1
 // @license      MIT
@@ -8,7 +8,8 @@
 // @updateURL    https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js
 // @downloadURL  https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js
 // @match        https://ggplayers.com/giveaways/*
-// @grant        GM.xmlhttpRequest
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
 // @connect      ggplayers.com
 // @noframes
@@ -21,10 +22,8 @@
     /* globals jQuery */
 
     // @const jQuery object
-    const $J = (typeof jQuery !== 'undefined')?jQuery:null;
-
-    // @const xmlHTTPrequest object
-    const $xhr = (typeof GM.xmlhttpRequest !== 'undefined') ? GM.xmlhttpRequest : ((typeof GM_xmlhttpRequest !== 'undefined') ? GM_xmlhttpRequest : null);
+    const $J = (typeof jQuery !== 'undefined') ? jQuery : ((typeof $ !== 'undefined') ? $ : null);
+    if(!$J || typeof $J !== 'function') return;
 
     // @const Enable/disable status & error output to console
     const ENABLE_CONSOLE_OUTPUT = true;
@@ -122,6 +121,8 @@
      */
     function renderGGPointsDisplay()
     {
+        // get xmlHTTPrequest object:
+        const $xhr = (typeof GM.xmlHttpRequest !== 'undefined') ? GM.xmlHttpRequest : ((typeof GM_xmlhttpRequest !== 'undefined') ? GM_xmlhttpRequest : null);
         if(!$xhr) return;
 
         // get user profile url:
@@ -190,11 +191,8 @@
     }
 
     // check URL:
-    if(/^https:\/\/ggplayers.com\/giveaways[\/]?(\?.*)?$/i.test(window.location.href))
+    if(/^https:\/\/ggplayers.com\/giveaways(\/?|\/[\?#]{1}.*)?$/i.test(window.location.href))
     {
-        // check jQuery:
-        if(!$J || typeof $J !== 'function') return;
-
         // add CSS:
         injectCSS();
 
