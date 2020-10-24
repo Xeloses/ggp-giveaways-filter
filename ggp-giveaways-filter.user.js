@@ -98,7 +98,7 @@
             $item = $J(item);
             $item.css(
                 'display',
-                ((filterClosed && !$item.hasClass('purchasable')) || (filterJoined && $item.find('a:last').text().trim().toLowerCase() == 'joined')) ? 'none' : 'list-item'
+                ((filterClosed && !$item.hasClass('purchasable')) || (filterJoined && $item.find('a[data-product_id]').text().trim().toLowerCase() == 'joined')) ? 'none' : 'list-item'
             );
         });
     }
