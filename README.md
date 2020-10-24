@@ -11,8 +11,12 @@ Add filters to giveaways list, allow to hide ended, ongoing and joined giveaways
 
 ## Features:
 * Hide joined giveaways.
-* Hide closed (ended and upcoming) giveaways.
-* Display current GGPoints amount.
-    * *Tampermonkey only*
+* Hide closed (*ended and upcoming*) giveaways.
+* Add "Search on Steam" button to each Steam key giveaway.
+    * *Unfortunately Steam does not provide any direct methods for getting game page URL based on game name. This cause script can only create links to Steam search page.*
+* Display current GGPoints amount on Giveaways list page.
+    * ***Tampermonkey only***
+* Transparent background for giveaway images.
+* Little alignment fixes (*depending on resolution / browser window size*).
 
 ![Preview](https://raw.github.com/Xeloses/ggp-giveaways-filter/master/preview.jpg) 
