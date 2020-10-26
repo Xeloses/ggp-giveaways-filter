@@ -183,7 +183,6 @@
         const steam_link = '<a href="https://store.steampowered.com/search/?term=%TERM%" target="_blank" class="button steam-link" aria-label="Search “%NAME%” on Steam" title="Search “%NAME%” on Steam" rel="nofollow"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" alt="Steam" /></a>';
 
         let $item = null,
-            $btn = null,
             name = '';
 
         $GAs.each((i,item) => {
@@ -198,8 +197,7 @@
                 // get game name:
                 name = name.replace(/(steam|key|giveaway|\s^)/gi,'').trim();
                 // create & render button:
-                $btn = $J(steam_link.replace('%TERM%',name.encodeTerm()).replaceAll('%NAME%',name.escapeQuot()));
-                $btn.insertAfter($item.find('a.button[data-product_id]'));
+                $J(steam_link.replace('%TERM%',name.encodeTerm()).replaceAll('%NAME%',name.escapeQuot())).insertAfter($item.find('a.button[data-product_id]'));
             }
         });
     }
