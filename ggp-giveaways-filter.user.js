@@ -44,12 +44,12 @@
         return this.split(search).join(replacement);
     };
 
-    String.prototype.encodeTerm = function(search,replacement)
+    String.prototype.encodeTerm = function()
     {
-        return '%22'+encodeURIComponent(this).replaceAll('%20','+')+'%22';
+        return encodeURIComponent(this).replaceAll('%20','+');
     };
 
-    String.prototype.escapeQuot = function(search,replacement)
+    String.prototype.escapeQuot = function()
     {
         return this.replace('/\"/g','&quot;');
     };
