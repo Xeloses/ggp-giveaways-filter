@@ -7,7 +7,7 @@
 // @namespace    Xeloses.GGPlayers.GiveawayListFilter
 // @updateURL    https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js
 // @downloadURL  https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js
-// @match        https://ggplayers.com/giveaways/*
+// @match        https://ggplayers.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
@@ -242,18 +242,19 @@
               $J(item).removeClass('first last');
         });
 
+        // add steam links to giveaways:
+        addSteamLink();
+
         // check user has logged in:
         if($J('header #main-nav-menu .bp-login-nav').length || $J('header #main-nav-menu .bp-register-nav').length) return;
 
         // add filter controls:
         renderForm();
 
-        // add steam links to giveaways:
-        addSteamLink();
-
         // add GGPoints display:
         renderGGPointsDisplay();
 
         $log('App loaded.');
     }
+
 })();
