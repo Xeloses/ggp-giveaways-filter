@@ -1,22 +1,34 @@
-# Userscript: Giveaways filter for [GGPlayers.com](https://ggplayers.com/)
-*Userscript for Tampermonkey/Greasemonkey.*
+# Userscript: **X**eloses\` e**X**tended [**GGP**layers.com](https://ggplayers.com/)
+*Userscript for Tampermonkey.*
 
-Add filters to giveaways list, allow to hide ended, ongoing and joined giveaways.
-
-## Installation:
-* Install addon for userscripts: :
-    * **Google Chrome**: [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-    * **Mozilla Firefox**: [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/) or [Tampermonkey](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
-* Install [userscript](https://github.com/Xeloses/ggp-giveaways-filter/raw/master/ggp-giveaways-filter.user.js) *(click on link)*.
+Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
 
 ## Features:
-* Hide joined giveaways.
-* Hide closed (*ended and upcoming*) giveaways.
-* Add "Search on Steam" button to each Steam key giveaway.
+* **Giveaways filter** - allow to hide
+    * Joined giveaways
+    * Ended and ongoing giveaways
+* Add **GGPoins display** to giveaways list page.
+* Add **"Search on Steam"** button to each Steam key giveaway.
     * *Unfortunately Steam does not provide any direct methods for getting game page URL based on game name. This cause script can only create links to Steam search page.*
 * Display current GGPoints amount on Giveaways list page.
-    * ***Tampermonkey only***
-* Transparent background for giveaway images.
-* Little alignment fixes (*depending on resolution / browser window size*).
+    ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-ga-list.jpg)
+* Layout fixes and UI improvements:
+    * Transparent background for giveaway covers.
+    * Realign elements in discussion/group/forum header (*fixes alignment and decrease header size*).
+        ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-forum-header.jpg)
+    * Realign elements in profile header (*fixes alignment and decrease header size*).
+        ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-profile-header.jpg)
+    * Fix alignment on checkout page.
+    * Remove participation form from giveaway page after bought a ticket.
+    * Improve buttons in comments.
+    * Little improvements for right side widgets.
+    * Fix empty login link issue.
 
-![Preview](https://raw.github.com/Xeloses/ggp-giveaways-filter/master/preview.jpg) 
+## Installation:
+* Install **"Tampermonkey"** addon for your browser:
+    * **Google Chrome**: [install](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+    * **Mozilla Firefox**: [install](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
+    * **Opera**: [install](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
+    * **Safari** (MacOS): [install](https://apps.apple.com/us/app/tampermonkey/id1482490089)
+    * **IE/Edge**: *no support ()*
+* Install userscript: [install](https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js)
