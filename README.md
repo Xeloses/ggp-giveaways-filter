@@ -11,7 +11,7 @@ Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
 * Add **"Search on Steam"** button to each Steam key giveaway.
     * *Unfortunately Steam does not provide any direct methods for getting game page URL based on game name. This cause script can only create links to Steam search page.*
 
-    ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-ga-list.jpg)
+        ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-ga-list.jpg)
     
 * Layout fixes and UI improvements:
     * Transparent background for giveaway covers.
@@ -35,5 +35,5 @@ Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
     * **Mozilla Firefox**: [install](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
     * **Opera**: [install](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
     * **Safari** (MacOS): [install](https://apps.apple.com/us/app/tampermonkey/id1482490089)
-    * **IE/Edge**: *no support ()*
+    * **IE/Edge**: *no support (using these applications is strongly not recommended)*
 * Install userscript: [install](https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js)
