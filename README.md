@@ -30,10 +30,10 @@ Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
     * Fix empty login link issue.
 
 ## Installation:
-* Install **"Tampermonkey"** addon for your browser:
+1. Install **"Tampermonkey"** addon for your browser:
     * **Google Chrome**: [install](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
     * **Mozilla Firefox**: [install](https://addons.mozilla.org/ru/firefox/addon/tampermonkey/)
     * **Opera**: [install](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
     * **Safari** (MacOS): [install](https://apps.apple.com/us/app/tampermonkey/id1482490089)
     * **IE/Edge**: *no support (using these applications is strongly not recommended)*
-* Install userscript: [install](https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js)
+2. Install userscript: [install](https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js)
