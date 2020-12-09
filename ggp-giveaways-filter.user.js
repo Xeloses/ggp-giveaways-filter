@@ -3,7 +3,7 @@
 // @description  Improvements and extensions for GGPlayers (giveaways list filters, GGPoins display, Steam links for giveaways, layout fxes and UI improvements).
 // @author       Xeloses
 // @version      1.0.4
-// @license      GNU GPL v3 (https://www.gnu.org/licenses/gpl-3.0.html)
+// @license      GPL-3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 // @namespace    Xeloses.XXGGP
 // @website      https://github.com/Xeloses/xxggp
 // @downloadURL  https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js
