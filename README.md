@@ -4,10 +4,10 @@
 Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
 
 ## Features:
-* **Giveaways filter** - allow to hide
+* **Giveaways filter** - allow to hide:
     * Joined giveaways
     * Ended and ongoing giveaways
-* Add **GGPoins display** to giveaways list page.
+* Add **GGPoints display** to giveaways list page.
 * Add **"Search on Steam"** button to each Steam key giveaway.
     * *Unfortunately Steam does not provide any direct methods for getting game page URL based on game name. This cause script can only create links to Steam search page.*
         
