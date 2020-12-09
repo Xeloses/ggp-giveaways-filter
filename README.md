@@ -1,4 +1,4 @@
-# Userscript: **X**eloses\` e**X**tended [**GGP**layers.com](https://ggplayers.com/)
+# Userscript: Xeloses\` eXtended [GGPlayers.com](https://ggplayers.com/)
 *Userscript for Tampermonkey.*
 
 Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
@@ -10,14 +10,19 @@ Improvements and extensions for [GGPlayers](https://ggplayers.com/) web-site.
 * Add **GGPoins display** to giveaways list page.
 * Add **"Search on Steam"** button to each Steam key giveaway.
     * *Unfortunately Steam does not provide any direct methods for getting game page URL based on game name. This cause script can only create links to Steam search page.*
-* Display current GGPoints amount on Giveaways list page.
+
     ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-ga-list.jpg)
+    
 * Layout fixes and UI improvements:
     * Transparent background for giveaway covers.
     * Realign elements in discussion/group/forum header (*fixes alignment and decrease header size*).
+    
         ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-forum-header.jpg)
+        
     * Realign elements in profile header (*fixes alignment and decrease header size*).
+    
         ![Preview](https://raw.github.com/Xeloses/xxggp/master/preview/preview-profile-header.jpg)
+        
     * Fix alignment on checkout page.
     * Remove participation form from giveaway page after bought a ticket.
     * Improve buttons in comments.
