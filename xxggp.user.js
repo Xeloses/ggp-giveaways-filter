@@ -6,8 +6,8 @@
 // @license      GPL-3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
 // @namespace    Xeloses.XXGGP
 // @website      https://github.com/Xeloses/xxggp
-// @downloadURL  https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js
-// @updateURL    https://github.com/Xeloses/xxggp/raw/master/xxggp.user.js
+// @downloadURL  https://raw.githubusercontent.com/Xeloses/xxggp/master/xxggp.user.js
+// @updateURL    https://raw.githubusercontent.com/Xeloses/xxggp/master/xxggp.user.js
 // @match        https://ggplayers.com/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @grant        GM.xmlHttpRequest
@@ -118,7 +118,7 @@
      */
     function addSteamLink()
     {
-        const steam_link = '<a href="https://store.steampowered.com/search/?term=%TERM%" target="_blank" class="button steam-link" aria-label="Search “%NAME%” on Steam" title="Search “%NAME%” on Steam" rel="nofollow"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" alt="Steam" /></a>';
+        const steam_link = '<a href="https://store.steampowered.com/search/?term=%TERM%" target="_blank" class="button steam-link" aria-label="Search â€œ%NAME%â€ on Steam" title="Search â€œ%NAME%â€ on Steam" rel="nofollow"><img src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/share_steam_logo.png" alt="Steam" /></a>';
 
         let $item = null,
             name = '';
